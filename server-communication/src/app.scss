@@ -1,0 +1,60 @@
+body{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEF7H1y_BAT9RSzGVgLdrs1ZPcsPnB3z4Kag&usqp=CAU");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.movielibrary{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+/*.moviedetails{
+    width: 300px;
+    height: 300px;
+}*/
+img{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    animation: raj 3s linear infinite;
+    
+}
+@keyframes raj {
+100%{
+    // transform: rotate(360deg);
+    // transform: rotateX(360deg);
+    transform: rotateY(360deg);
+    
+}
+
+}
+
+video{
+    width: 300px;
+    height: 300px;
+}
+h2
+{
+    text-align:center;
+    font-size: 55px;
+    font-family: cursive;
+    color: black;
+    
+}
+h1
+{
+   
+    font-size: 35px;
+    font-family: cursive;
+    color: rgb(207, 12, 119);
+    text-decoration:underline;
+}
+.tollywood,.kollywood,.Bollywood
+{
+    width: 500px;
+    text-align: center;
+    border: 5px solid whitesmoke;
+    margin: auto;
+    padding: auto;
+}
